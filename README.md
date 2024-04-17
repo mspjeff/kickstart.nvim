@@ -4,21 +4,16 @@
 
 ### Install a Nerd Font ###
 
-```
-Start-BitsTransfer -Source https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip -Destination $env:temp\JetBrainsMono.zip
-Expand-Archive $env:temp\JetBrainsMono.zip $env:temp\JetBrainsMono
-explorer $env:temp\JetBrainsMono
-```
+`Start-BitsTransfer -Source https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip -Destination $env:temp\JetBrainsMono.zip`
+`Expand-Archive $env:temp\JetBrainsMono.zip $env:temp\JetBrainsMono`
+`explorer $env:temp\JetBrainsMono`
 
 ### Install External Dependencies
 
-```
-winget install --id Git.Git --source winget
-winget install --id Golang.Go --source winget
-winget install --id zip.zip.nightly --source winget
-winget install --id BurntSushi.ripgrep.MSVC --source winget
-
-```
+`winget install --id Git.Git --source winget`
+`winget install --id Golang.Go --source winget`
+`winget install --id zip.zip.nightly --source winget`
+`winget install --id BurntSushi.ripgrep.MSVC --source winget`
 
 ### Install Neovim ###
 
