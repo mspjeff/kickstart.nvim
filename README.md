@@ -8,7 +8,7 @@
 Start-BitsTransfer -Source https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip -Destination $env:temp\JetBrainsMono.zip
 Expand-Archive $env:temp\JetBrainsMono.zip $env:temp\JetBrainsMono
 explorer $env:temp\JetBrainsMono
-
+```
 
 ### Install External Dependencies
 
