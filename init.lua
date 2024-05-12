@@ -99,8 +99,9 @@ vim.g.have_nerd_font = true
 --  For more options, you can see `:help option-list`
 
 -- MSPJeff custom options
-vim.opt.wrap = false
 vim.opt.colorcolumn = '80'
+vim.opt.tabstop = 4
+vim.opt.wrap = false
 
 -- Make line numbers default
 vim.opt.number = true
